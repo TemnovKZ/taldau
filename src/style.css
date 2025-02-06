@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Poppins", serif;
+    background: url("@/assets/background/bg-main.png") no-repeat;
+    background-size: cover;
+
+    a:hover {
+        @apply underline;
+    }
+}
+.container {
+    @apply max-w-[1372px] px-4 mx-auto max-md:px-0;
+}
+.title {
+    @apply text-5xl text-indigo font-semibold max-md:text-4xl;
+}
